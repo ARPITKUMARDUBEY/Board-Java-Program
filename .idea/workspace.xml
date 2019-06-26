@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a04503a2-d9b6-4277-b5a8-ace54f0bc6ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/armstongnumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inetrface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reverseofthenumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sortingleastcomputation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Complex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,21 +19,17 @@
     <favorites_list name="Board-Java-Program" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inetrface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/searching.java">
+        <entry file="file://$PROJECT_DIR$/src/Complex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="186">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,6 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -80,8 +71,17 @@
         <option value="$PROJECT_DIR$/src/inetrface.java" />
         <option value="$PROJECT_DIR$/src/sortingleastcomputation.java" />
         <option value="$PROJECT_DIR$/src/searching.java" />
+        <option value="$PROJECT_DIR$/src/testing.java" />
+        <option value="$PROJECT_DIR$/src/realprogram.java" />
+        <option value="$PROJECT_DIR$/src/Complex.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="664" />
@@ -98,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +119,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,9 +144,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.searching">
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Triangle" />
+  <component name="RunManager" selected="Application.Complex">
+    <configuration name="Complex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Complex" />
       <module name="Board-Java-Program" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Complex" />
         <item itemvalue="Application.searching" />
         <item itemvalue="Application.sortingleastcomputation" />
         <item itemvalue="Application.reverseofthenumber" />
         <item itemvalue="Application.armstongnumber" />
-        <item itemvalue="Application.Triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561417083196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="third session 25/06/2019">
+      <created>1561501167739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561501167739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.1732224" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,10 +251,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32980332" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,10 +282,25 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second message" />
-    <option name="LAST_COMMIT_MESSAGE" value="second message" />
+    <MESSAGE value="third session 25/06/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="third session 25/06/2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/helloworld.java">
@@ -383,24 +405,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inetrface.java">
+    <entry file="file://$PROJECT_DIR$/src/inetrface.java" />
+    <entry file="file://$PROJECT_DIR$/src/searching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="274">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sortingleastcomputation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" column="5" selection-start-line="2" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/searching.java">
+    <entry file="file://$PROJECT_DIR$/src/testing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#70#71#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/realprogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
