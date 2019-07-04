@@ -4,7 +4,7 @@ public class string_count {
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int count=0,k=0,flag=0;
+        int count=0,k=0,flag=0,counter=0;
         System.out.print("PLEASE ENTER THE DATA  =  ");
         String data= sc.next();
         for(int i=0;i<data.length();i++)
@@ -27,12 +27,16 @@ public class string_count {
                 else
                 {
                      flag=1;
+
                 }
             }
             if(flag==1)
             {
-                System.out.print(data.charAt(i)+"---->"+count);
+                System.out.print(data.charAt(i)+"---->"+count+"\n");
+                counter++;
             }
         }
+        System.out.println("total unique character are = "+counter);
     }
+
 }
