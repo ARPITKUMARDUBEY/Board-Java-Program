@@ -11,7 +11,13 @@ public class Train_problem {
         Train_problem tt = new Train_problem();
         Thread tA=new TrainA();
         Thread tB=new TrainB();
-        for(int i=0;i<number_of_station;i++)
+        int i=0;
+        Thread.sleep(5000);
+        tB.start();
+        i++;
+        Thread.sleep(5000);
+        tA.start();
+        for(i=2;i<number_of_station;i++)
         {
             if(i%2==0)
             {
