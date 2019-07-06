@@ -1,7 +1,8 @@
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 public class Train_problem {
-    static int counterA=0,counterB=0;
+    static int counterA=0,counterB=0,counter=0;
+    static String station_List[]={"chennai","mumbai","indore","delhi","bhopal","gandhinagar","patiala","ludhiana","chandigarh","jalandhar"};
     public static void main(String[] args)throws Exception {
         Scanner sc= new Scanner(System.in);
         float timeA,timeB ;
@@ -9,7 +10,6 @@ public class Train_problem {
         timeA=sc.nextFloat();
         System.out.print("Please Enter The Journey Timeing Of Train B = \n");
         timeB=sc.nextFloat();
-        String station_List[]={"chennai","mumbai","indore","delhi","bhopal","gandhinagar","patiala","ludhiana","chandigarh","jalandhar"};
         int number_of_station=station_List.length;
         Train_problem tt = new Train_problem();
         Thread tA=new TrainA();
@@ -44,11 +44,14 @@ public class Train_problem {
     }
 }
 class TrainA extends Thread
-{
+        {
     public void run()
     {
         Train_problem tp=new Train_problem();
-        tp.counterA++;
+        System.out.print("\nThre train ---.>  A reached at --> "+tp.station_List[tp.counter]+" station ");
+
+        tp.counter++;
+        tp.counterA=tp.counter;
     }
 }
 class TrainB extends Thread
@@ -56,6 +59,9 @@ class TrainB extends Thread
     public void run()
     {
         Train_problem tp=new Train_problem();
-        tp.counterB++;
+        System.out.print("\nThre train ---.>  B reached at --> "+tp.station_List[tp.counter]+" station ");
+
+        tp.counter++;
+        tp.counterB=tp.counter;
     }
 }
